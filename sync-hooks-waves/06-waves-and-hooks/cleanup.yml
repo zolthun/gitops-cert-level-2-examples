@@ -5,6 +5,7 @@ metadata:
   generateName: cleanup-after-sync-
   labels:
     codefresh.io/cert: cleanup-job  
+    argocd.argoproj.io/sync-wave: "20"
 spec:
   template:
     spec:
